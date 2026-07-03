@@ -1,12 +1,11 @@
 /// this is a function script///
 fn main(){
 
-    greet();
+    greet("Vishnu");
 }
 
 
-fn greet(){
-
-    println!("Welcome to Rust");
+fn greet(name: &str){
+    println!("Welcome {}", name);
 }
 
