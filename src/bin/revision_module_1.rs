@@ -6,3 +6,4 @@ println!("This is a function")
 
 }
 //thisisacomment
+//this is also a comment
